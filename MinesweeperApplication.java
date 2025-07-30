@@ -5,9 +5,9 @@ import controller.GameController;
  *
  * This is the main class that starts the Minesweeper game application.
  * It follows the single responsibility principle by delegating all game logic
- * to the GameController.
+ * to the MinesweeperGridPlay and all user inputs into GameController.
  *
- * @author Your Name
+ * @author Thang Le
  * @version 1.0
  * @since Java 17
  */
