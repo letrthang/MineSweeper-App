@@ -44,3 +44,8 @@
 * Open/Closed Principle: MinesweeperGrid is open for extension, closed for modification
 * Encapsulation: Package-private setters prevent external misuse
 * Inheritance: MinesweeperGridPlay inherits data access, adds behavior
+
+
+## Game logic implementation:
+
+![Alt text](https://raw.githubusercontent.com/letrthang/MineSweeper-App/main/docs/game_sequence.png)
