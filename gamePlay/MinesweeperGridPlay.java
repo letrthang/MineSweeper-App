@@ -218,12 +218,4 @@ public class MinesweeperGridPlay extends MinesweeperGrid {
         // Reinitialize game
         initializeGame();
     }
-
-    /**
-     * Reset game with specific seed (useful for testing)
-     */
-    public void resetGame(long seed) {
-        this.random = new Random(seed);
-        resetGame();
-    }
 }
