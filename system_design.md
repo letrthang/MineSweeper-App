@@ -24,7 +24,7 @@
 * Validates mine count constraints (35% maximum)
 * Provides configuration constants
 
-#### 5. MinesweeperGrid - Main DTO class for game board:
+#### 5. MinesweeperGrid - Main data class for game board:
 
 * 2D array of Cell objects
 * Grid size and mine count tracking
@@ -47,5 +47,12 @@
 
 
 ## Game logic implementation:
+
+Below is sequence diagram of the app.
+
+* GameController is an action class that is running in a loop to handle for all user input commands
+* MinesweeperGridPlay will take care for all game logic 
+
+
 
 ![Alt text](https://raw.githubusercontent.com/letrthang/MineSweeper-App/main/docs/game_sequence.png)

@@ -7,7 +7,7 @@ import userService.GameInputService;
 import exception.GameException;
 
 /**
- * Enhanced GameController with better error handling and logging
+ * handle input from user. It acts as a dispatcher
  */
 public class GameController {
     private final GameDisplayService displayService;

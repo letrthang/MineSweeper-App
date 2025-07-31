@@ -3,7 +3,7 @@ package dto;
 import java.util.*;
 
 /**
- * Main grid class representing the minesweeper board
+ * Main grid data class representing info (status,...) of the minesweeper board
  */
 public class MinesweeperGrid {
     private final int size;                          // Grid size (size x size)

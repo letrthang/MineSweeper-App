@@ -22,6 +22,6 @@ public class ApplicationInfo {
     }
 
     private ApplicationInfo() {
-        // Utility class - prevent instantiation
+
     }
 }
